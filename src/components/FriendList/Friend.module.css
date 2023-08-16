@@ -5,6 +5,7 @@
 }
 
   .item {
+    padding-right: 140px;
     padding: 20px;
  display: flex;
  text-align: center;
@@ -14,13 +15,21 @@
 }
 
 
-.red.dot {
+.redDot {
     position: relative;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: red;
     border-radius: 50%;
-    margin-right: 6px; 
+    margin: auto;
   }
-  
+  .greenDot{
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #35af0d;
+    border-radius: 50%;
+    margin: auto;
+  }
