@@ -1,0 +1,40 @@
+.profile {
+ padding: 20px;
+ display: block;
+ text-align: center;
+ background: #99cbe2;
+ margin: auto;
+ width: 400px;
+  margin-top: 40px;
+}
+.avatar {
+border-radius: 50%;
+}
+
+.name {
+display: flex;
+ justify-content: center;
+ font-size: 30px;
+}
+
+.tag {
+ font-size: 24px;
+ margin-bottom: 10px;
+ margin-top: 0;
+    
+  }
+  .list {
+    display: grid; 
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .stats {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
